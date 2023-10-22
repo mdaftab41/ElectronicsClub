@@ -1,0 +1,41 @@
+/* animations.css
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Define a class for the element you want to animate */
+  /*.fade-in {
+    /* Set the animation name, duration, and timing function */
+   /* animation: fadeIn 1s ease-in-out;
+    duration:20000;
+  
+    /* Optionally, you can also use other animation properties like delay and iteration count */
+    /* animation: fadeIn 1s ease-in-out 0.5s infinite alternate; */
+  /*}
+   */
+   /* animations.css */
+
+ /* animations.css */
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.25);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Define a class for the zoom-in effect */
+.zoom-in {
+  /* Set the animation name, duration, and timing function for zoomIn */
+  animation: zoomIn 1s ease-in-out; /* Duration set to 4 seconds */
+}
